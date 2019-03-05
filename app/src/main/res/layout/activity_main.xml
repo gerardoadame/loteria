@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnarbol"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/arbol" />
+
+        <ImageButton
+            android:id="@+id/btnbandera"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/bandera" />
+
+        <ImageButton
+            android:id="@+id/btncalavera"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/calavera" />
+
+        <ImageButton
+            android:id="@+id/btnvaliente"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/valiente"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/btncatrin"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/catrin" />
+
+        <ImageButton
+            android:id="@+id/btnchalupa"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/chalupa" />
+
+        <ImageButton
+            android:id="@+id/btnnopal"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/nopal" />
+
+        <ImageButton
+            android:id="@+id/btnsirena"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/sirena" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnestrella"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/estrella" />
+
+        <ImageButton
+            android:id="@+id/btnviolincello"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/violoncelo" />
+
+        <ImageButton
+            android:id="@+id/btnbandolon"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/sandolon" />
+
+        <ImageButton
+            android:id="@+id/btnvenado"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/venado" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnrosa"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/rosa" />
+
+        <ImageButton
+            android:id="@+id/btncantaro"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/cantaro" />
+
+        <ImageButton
+            android:id="@+id/btnjaras"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/jaras" />
+
+        <ImageButton
+            android:id="@+id/btnarpa"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/arpa" />
+
+    </LinearLayout>
+
+</LinearLayout>
